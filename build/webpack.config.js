@@ -29,7 +29,7 @@ module.exports = {
     stats:'errors-only',
     // 是否启动压缩
     compress: false,
-    host: 'localhost',
+    host: '192.168.2.19',
     port: '8089'
   },
   plugins: [

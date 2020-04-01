@@ -7,4 +7,7 @@
 // import './example/es6-class-2'
 // import './example/ts-class'
 // import './example/enum'
-import './example/inference-compatibility'
+// import './example/inference-compatibility'
+// import './example/advance-type-1'
+// import './example/advance-type-2'
+import './modules/index'

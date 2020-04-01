@@ -59,25 +59,25 @@ enum Result {
 // }
 
 // 联合枚举
-enum Status{
-  Off,
-  On
-}
+// enum Status{
+//   Off,
+//   On
+// }
 
-interface Light {
-  status: Status
-}
+// interface Light {
+//   status: Status
+// }
 
-const light:Light = {
-  status: Status.On
-}
+// const light:Light = {
+//   status: Status.On
+// }
 
 // const枚举
 // 常量枚举只能使用常量枚举表达式，并且不同于常规的枚举，它们在编译阶段会被删除。
-const enum Animals {
-  Dog = 1
-}
+// const enum Animals {
+//   Dog = 1
+// }
 
-const animal = Animals.Dog
+// const animal = Animals.Dog
 // 编译后：
 //  var animal = 1 /*Dog*/

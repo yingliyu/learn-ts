@@ -245,10 +245,10 @@ interface FoodInterface {
 }
 
 // 用FoodClass类实现FoodInterface接口  实现关键字：implements
-class FoodClass implements FoodInterface{
+// class FoodClass implements FoodInterface{
   // public static type: string // Error 实例上没有这个属性
-  public type: string
-}
+  // public type: string
+// }
 // 注意：接口检测的是使用该接口定义的类创建的实例
 
 
